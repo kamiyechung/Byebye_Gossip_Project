@@ -7,4 +7,16 @@ class UserMailer < ApplicationMailer
 
     mail(to: @user.email, subject: 'Bienvenue chez nous !')
   end
+
+  def attendee_email(attendee)
+    @attendee = attendee
+
+
+    @url ='http://monsite.fr/login'
+
+    mail(to: @attendee.email, subject: "Bienvenue a  l'event de !")
+  end
+
+
+
 end
