@@ -4,7 +4,7 @@ class CreateEvents < ActiveRecord::Migration[5.2]
       t.datetime :start_date
       t.integer :duration
       t.string :title
-      t.text :descritpion
+      t.text :description
       t.integer :price
       t.string :location
       t.timestamps
