@@ -1,24 +1,9 @@
-# README
+Projet de Jordan Aumis et Camille Bideau
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pour le lancer, cloner le répertoire puis lancer 
+- bundle install
+- rails db:create
+- rails db:migrate
+- rails db:seed
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Pour tester l'envoi d'un mail : 
